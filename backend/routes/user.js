@@ -91,7 +91,6 @@ router.get("/get-user-information", authenticateToken, async(req,res)=> {
 })
 
 //update address
-
 router.put("/update-address", authenticateToken, async(req,res) => {
   try {
     const { id } = req.headers;
