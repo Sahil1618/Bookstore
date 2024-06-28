@@ -8,7 +8,7 @@ import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 import Profile from "./pages/Profile";
-// import ViewBookDetails from "./components/ViewBookDetails/ViewBookDetails";
+import ViewBookDetails from "./components/ViewBookDetails/ViewBookDetails";
 
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
           <Route path="/profile" element={<Profile/>} />
           <Route path="/Login" element={<Login/>} />
           <Route path="/SignUp" element={<SignUp/>} />
-          {/* <Route path="/view-book-details/:id" element={<ViewBookDetails/>} /> */}
+          <Route path="/view-book-details/:id" element={<ViewBookDetails/>} />
         </Routes>
         <Footer />
       </Router>  
